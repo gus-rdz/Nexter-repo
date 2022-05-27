@@ -31,6 +31,7 @@ $bp-small: 37.5rem; // 600px
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  overflow-x: hidden;
 
   @media only screen and (max-width: $bp-largest) {
     font-size: 50%;
@@ -42,6 +43,7 @@ body {
   color: $color-grey-dark-2;
   font-weight: 300;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 .container {
